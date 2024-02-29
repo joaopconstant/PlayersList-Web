@@ -1,0 +1,107 @@
+:root {
+    --cor-branco: #F0F2F2;
+    --cor-principal: #000000;
+    --cor-secundaria: #d9a23d;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: var(--cor-preto);
+    background-color: var(--cor-principal);
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+#title {
+    color: var(--cor-branco);
+    text-align: center;
+}
+
+#pesquisa {
+    display: flex;
+    justify-content: center;
+}
+
+#filtro {
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerCard {
+    margin: 25px;
+    margin-top: 65px;
+    width: 300px;
+    height: 380px;
+    background: var(--cor-branco);
+    border-radius: 6px;
+    box-shadow: 0 0 5px var(--cor-principal);
+}
+
+.top{
+    height: 5em;
+    border-radius: 6px;
+    background: var(--cor-secundaria);
+    display: flex;
+    justify-content: center;
+}
+
+.botton {
+    background: var(--cor-branco);
+    font-size: 1.3em;
+    padding-top: 2em;
+    text-align: center;
+}
+
+.playerName {
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: var(--cor-principal);
+}
+
+.playerPos {
+    color: var(--cor-secundaria);
+}
+
+.playerImg {
+    background-color: var(--cor-branco);
+    padding: 0.2em;
+    border-radius: 50%;
+    width: 9em;
+    height: 9em;
+    margin-top: 0.5em;
+}
+
+.btn {
+    width: auto;
+    height: auto;
+    padding: .5em;
+    border-radius: 10px;
+    background: var(--cor-secundaria);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--cor-principal);
+}

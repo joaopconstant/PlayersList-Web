@@ -1,0 +1,64 @@
+:root {
+    --cor-branco: #F0F2F2;
+    --cor-principal: #000000;
+    --cor-secundaria: #d9a23d;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-style: var(--cor-preto);
+    background-color: var(--cor-principal);
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    color: var(--cor-branco);
+    text-align: center;
+}
+
+#playerCard {
+    background: var(--cor-branco);
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    text-align: center;
+    border: 5px solid var(--cor-secundaria);
+}
+
+#playerCard img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    width: 90%;
+    border-radius: 20px;;
+}
+
+#name-pos {
+    background-color: var(--cor-secundaria);
+    margin: 1rem;
+    border-radius: 20px;
+    padding: 1px;
+    font-size: 25px;
+}
+
+#voltar {
+    padding: 1rem;
+    width: auto;
+    border-radius: 5px;
+    background-color: var(--cor-branco);
+    color: var(--cor-principal);
+    border: solid 1px var(--cor-branco);
+}
+
+#voltar:hover {
+    cursor: pointer;
+    color: var(--cor-secundaria);
+    border: solid 1px var(--cor-secundaria);
+}
